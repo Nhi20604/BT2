@@ -1,0 +1,30 @@
+<style>
+    input:focus{color:red;font-size: 30px;}
+    div:hover{background-color:aqua;}
+    a{text-decoration:none;}
+    legend{background-color: green; font-size: 40px;border-radius: 20%;}
+    legend:hover{background-color: yellow;} 
+</style>
+<h1>Form Dang Nhap </h1>
+<form action="tranvanhung.fitstu.net/download/front-end/test.php" method="post">
+<fieldset>
+    <legend>Form 1</legend>
+ten <input type="text" name="t" id=""> <br>
+mkhau <input type="password" name="pw" id=""> <br>
+gtinh<input type="radio" name="gt" value="nam">Nam
+<input type="radio" name="gt" value="nu">Nu <br>
+So thich: 
+<input type="checkbox" name="st[]" value="1">Ththao
+<input type="checkbox" name="st[]" value="2">DLich <br>
+Ngay sinh:
+<input type="date" name="ns" id=""> <br>
+Lop: <select name="lop" id="">
+    <option value="01">TH01</option>
+    <option value="02">TH02</option>
+</select> <br>
+<input type="hidden" name="role" value="admin">
+Thong tin them
+<textarea name="khac" id=""></textarea> <br>
+<input type="submit" name="" value="gui">
+</fieldset>
+</form>
